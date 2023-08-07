@@ -2,105 +2,15 @@
 
 body {margin: 20px;
   font-family: "Roboto", sans-serif;
+  background-color: rgb(238, 238, 238);
+  color: rgb(13, 13, 158);
+  padding: 10px 20px;
 }
-
- 
-.list-item{
-  display: grid;
-  row-gap:20px;
-  column-gap: 20px;
-  grid-template-columns: 1fr 1fr;
-}
-
-.container-card{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: flex-start;
-    align-items: normal;
-    align-content: normal;
-    /* box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
-    /* box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px; */
-    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
-    border-radius: 1px;
-    width: 300px;
-    
-  }
-
-.card-left{
-  display: flex;
-  flex-direction: column;
-  background-color: #00b894;
-  /* width:90px; */
-  color: white;
-  font-size: 12px;
-  justify-content: center;
-  align-items: center;
-  
-}
-
-.card-id{
-  margin: 10px;
-  background-color: #039c7e;
-  border-radius: 10px;
-  padding: 1px 10px 1px 10px;
-
-  font-size: 12px;
-}
-.card-bottom{
-  margin: 10px;
-  background-color: #029275;;
-  border-radius: 10px;
-  padding: 1px 10px 1px 10px;
-  font-size: 12px;
-}
-.picture-header{
-  display: flex;
-  justify-content: center;
-}
-
-.picture-header img {
-  width: 50px;
-  height: 50px;
-  border: 1px solid rgb(255, 255, 255);
-  border-radius: 50%;
-  
-  
-}
-
-
-.card-right{
-  width: 220px;
-  display: flex;
-  flex-direction: column;
-  background-color: rgb(255, 255, 255);
-  color: #2d3436;
-  font-size: 12px;
-  justify-content: center;
-  line-height: 1.5;
-   
- 
-}
-
-.card-name{
-  font-size: 20px;
-  font-weight: 500;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  align-self: center;
-}
-.card-role span{
- margin: 2px 0px 2px 0px;
- font-size: 12px;
- color: #636e72
-}
-
-.card-salarie span{
-  margin: 2px 0px 2px 0px;
-  color: #636e72
-}
-.card-bio span{
-  margin: 2px 0px 2px 0px;
-  color: #636e72;
-  font-size: 12px;
+.btn {
+  background-color: #4CAF50; /* Green background color */
+  color: white; /* White text color */
+  padding: 10px 20px; /* Padding on the top and bottom: 10 pixels, padding on the left and right: 20 pixels */
+  border: none; /* Remove the default button border */
+  border-radius: 5px; /* Add rounded corners */
+  cursor: pointer; /* Change cursor to a hand when hovering over the button */
 }
